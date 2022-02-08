@@ -17,6 +17,9 @@ setup(
 
     packages=find_packages(),
 
+    python_requires='>=3',
+    install_requires=requirements,
+
     classifiers=[
         'Intended Audience :: Developers',
 
